@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const steamApi = axios.create({
-    baseURL: 'http://localhost:3001',
+    baseURL: 'https://custom-steam-api-production.up.railway.app',
     withCredentials: true
 })
 
