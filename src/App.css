@@ -77,7 +77,7 @@ input::placeholder{
 input:focus{
     outline: none;
     border-bottom: 2px solid rgb(52, 76, 155);
-    
+    color: rgb(52, 76, 155);
 }
 
 input:focus::placeholder{
