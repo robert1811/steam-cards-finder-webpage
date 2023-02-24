@@ -38,7 +38,10 @@ function App() {
         setGames(res.data)
         setIsLoading(false)
       })
-      .catch(err => console.error(err))
+      .catch(err => {
+        console.error(err)
+        setIsLoading(false)
+      })
   }
 
   return (
