@@ -1,5 +1,5 @@
 # Steam cards finder 
-This webpage makes queries to an API and then displays games with profitable steam trade cards. This API is not mine, this is the owner's repo: https://github.com/LucasGenovese/Steam-API.
+This webpage makes queries to an API and then displays games with profitable steam trade cards. The API is not mine, this is the owner's repo: https://github.com/LucasGenovese/Steam-API.
 
 ## Usage
 ### How to run the API
