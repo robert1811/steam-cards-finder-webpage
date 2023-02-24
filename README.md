@@ -1,6 +1,8 @@
 # Steam cards finder 
 This webpage makes queries to an API and then displays games with profitable steam trade cards. The API is not mine, this is the owner's repo: https://github.com/LucasGenovese/Steam-API.
 
+<img src="https://github.com/robert1811/steam-cards-finder-webpage/blob/main/preview.jpg">
+
 ## Usage
 ### How to run the API
 - Download the API in https://github.com/LucasGenovese/Steam-API and read its documentation
