@@ -4,6 +4,7 @@
 :root {
     --blue: rgb(106, 133, 224);
     --secondary-blue: rgb(74, 87, 201);
+    --light-blue: rgb(159, 178, 240);
 }
 .App {
     display: flex;
@@ -76,8 +77,8 @@ input::placeholder{
 
 input:focus{
     outline: none;
-    border-bottom: 2px solid rgb(52, 76, 155);
-    color: rgb(52, 76, 155);
+    border-bottom: 2px solid var(--light-blue);
+    color: var(--light-blue);
 }
 
 input:focus::placeholder{
@@ -109,6 +110,17 @@ button:hover {
     display: flex;
     flex-direction: column;
     margin: 30px auto;
+    animation-name: generate-games;
+    animation-duration: 0.3s;
+}
+
+@keyframes generate-games {
+    from {
+        display: none;
+    }
+    to{
+        display: flex;
+    }
 }
 
 .game a {
